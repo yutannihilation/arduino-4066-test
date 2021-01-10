@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "~/Downloads/arduino-1.8.13/tools/**",
+                "~/Arduino/libraries/**",
+                "~/Downloads/arduino-1.8.13/libraries/**",
+                "~/Downloads/arduino-1.8.13/hardware/tools/**",
+                "~/Downloads/arduino-1.8.13/hardware/arduino/avr/**",
+                "/home/yutani/Downloads/arduino-1.8.13/hardware/arduino/avr/**",
+                "/home/yutani/Downloads/arduino-1.8.13/hardware/tools/**",
+                "/home/yutani/Downloads/arduino-1.8.13/libraries/**",
+                "/home/yutani/Arduino/libraries/**",
+                "/home/yutani/Downloads/arduino-1.8.13/tools/**"
+            ],
+            "forcedInclude": [
+                "/home/yutani/Downloads/arduino-1.8.13/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "defines": [
+                "USBCON"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "~/Documents/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
