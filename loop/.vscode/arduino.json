@@ -2,5 +2,5 @@
     "board": "arduino:avr:uno",
     "port": "/dev/ttyACM1",
     "sketch": "main.ino",
-    "output": "./build"
+    "output": "../build"
 }
