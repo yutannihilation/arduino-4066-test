@@ -1,16 +1,12 @@
 int c1_pin = 3;
-int c2_pin = 4;
+int c2_pin = 5;
 
 void setup() {
   pinMode(c1_pin, OUTPUT);     
-  pinMode(c2_pin, OUTPUT);     
-  digitalWrite(c1_pin, LOW);
-  digitalWrite(c2_pin, LOW);
+  pinMode(c2_pin, OUTPUT);
 }
 
 void loop() {
-  // analogWrite(c1_pin, 110);
-
   // (H, L)
   digitalWrite(c1_pin, HIGH);
   digitalWrite(c2_pin, LOW);
