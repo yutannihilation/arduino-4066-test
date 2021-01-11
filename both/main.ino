@@ -41,13 +41,13 @@ void check_button() {
   switch (state)
   {
   case 0:
-    if (val == LOW)
+    if (val == HIGH)
       state = 1;
       button_released = 0;
     break;
 
   case 2:
-    if (val == HIGH)
+    if (val == LOW)
       button_released = 1;
     break;
 
